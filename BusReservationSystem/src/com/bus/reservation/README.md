@@ -22,7 +22,7 @@ This project demonstrates core Java concepts, GUI development, and database inte
 - **Eclipse IDE** – Project development (non-Maven)  
 
 ---
-
+```
 ## 📂 Project Structure
 BusReservationSystem/
 ├── src/com/bus/reservation
@@ -31,7 +31,7 @@ BusReservationSystem/
 │ ├── model - POJOs (User, Bus, Booking)
 │ ├── service - Business logic
 │ └── util - DB connection utility
-
+```
 🚀 How to Run
 1. Clone the repo:  
    ```bash
