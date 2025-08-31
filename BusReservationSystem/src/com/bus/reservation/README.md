@@ -96,7 +96,7 @@ private static final String PASSWORD = "your_password";
 ![Dashboard](screenshots/Dashboard.png)  
 
 ### 🚌 Bus List Page
-![Bus List](screenshots/Buslisting.png)
+![Bus List](screenshots/BusListing.png)
 
 ### 🎟 Booking Confirmation
 ![Booking](screenshots/BusBookings.png)
