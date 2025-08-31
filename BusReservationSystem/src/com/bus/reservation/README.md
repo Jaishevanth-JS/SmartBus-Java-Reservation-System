@@ -5,7 +5,7 @@ This project demonstrates core Java concepts, GUI development, and database inte
 
 ---
 
-## ✨ Features
+✨ Features
 - 🔑 **User Authentication** – Register & Login functionality  
 - 🚌 **View Available Buses** – Display route, date, fare, and seats in real-time  
 - 🎟 **Ticket Booking** – Book seats & auto-update seat availability  
@@ -15,7 +15,7 @@ This project demonstrates core Java concepts, GUI development, and database inte
 
 ---
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 - **Java** – Core Java & Swing (GUI)  
 - **JDBC** – For database connectivity  
 - **MySQL** – Relational database  
@@ -86,6 +86,20 @@ private static final String USER = "root";
 private static final String PASSWORD = "your_password";
 
 6.Run the app → SmartBus GUI will open. 🎉
+
+📸 Screenshots
+
+### 🔑 Login Page
+![Login](screenshots/login.png)
+
+### 🏠 Dashboard
+![Dashboard](screenshots/Dashboard.png)  
+
+### 🚌 Bus List Page
+![Bus List](screenshots/Buslisting.png)
+
+### 🎟 Booking Confirmation
+![Booking](screenshots/BusBookings.png)
 
 
 ## 👨‍💻 Author
