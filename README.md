@@ -92,16 +92,16 @@ private static final String PASSWORD = "your_password";
 📸 Screenshots
 
 ### 🔑 Login Page
-![Login](src/screenshots/login.png)
+![Login](BusReservationSystem/src/screenshots/login.png)
 
 ### 🏠 Dashboard
-![Dashboard](src/screenshots/Dashboard.png)  
+![Dashboard](BusReservationSystem/src/screenshots/Dashboard.png)  
 
 ### 🚌 Bus List Page
-![Bus List](src/screenshots/BusListing.png)
+![Bus List](BusReservationSystem/src/screenshots/BusListing.png)
 
 ### 🎟 Booking Confirmation
-![Booking](src/screenshots/BusBookings.png)
+![Booking](BusReservationSystem/src/screenshots/BusBookings.png)
 
 
 ## 👨‍💻 Author
