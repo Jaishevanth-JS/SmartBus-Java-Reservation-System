@@ -38,6 +38,7 @@ BusReservationSystem/
    git clone https://github.com/Jaishevanth-JS/SmartBus-Java-Reservation-System.git 
 2. Import into Eclipse IDE (File → Import → Existing Projects).
 3. Set up MySQL database:
+```
 CREATE DATABASE bus_reservation;
 USE bus_reservation;
 
@@ -69,22 +70,23 @@ CREATE TABLE bookings (
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (bus_id) REFERENCES buses(id)
 );
-
+```
 4. Insert sample buses:
+```
 INSERT INTO buses (bus_number, source, destination, date, total_seats, available_seats, fare)
 VALUES
 ('BUS1001', 'Chennai', 'Bangalore', '2025-09-01', 40, 40, 550.0),
 ('BUS1002', 'Hyderabad', 'Chennai', '2025-09-02', 50, 50, 700.0),
 ('BUS1003', 'Bangalore', 'Mumbai', '2025-09-03', 50, 50, 1200.0),
 ('BUS1004', 'Delhi', 'Jaipur', '2025-09-01', 30, 30, 400.0);
-
+```
 5. Update DB credentials inside:
 src/com/bus/reservation/util/DBConnection.java
-
+```
 private static final String URL = "jdbc:mysql://localhost:3306/bus_reservation?useSSL=false&serverTimezone=UTC";
 private static final String USER = "root";
 private static final String PASSWORD = "your_password";
-
+```
 6.Run the app → SmartBus GUI will open. 🎉
 
 📸 Screenshots
