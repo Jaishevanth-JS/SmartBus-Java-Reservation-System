@@ -23,7 +23,7 @@ This project demonstrates core Java concepts, GUI development, and database inte
 
 ---
 ```
-## 📂 Project Structure
+📂 Project Structure
 BusReservationSystem/
 ├── src/com/bus/reservation
 │ ├── main - Main entry point
